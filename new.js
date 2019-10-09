@@ -1,5 +1,5 @@
-var newElement = function(d, t) {
-    var e = d.createElement("p");
+var newElement = function(t) {
+    var e = document.createElement("p");
     e.textContent = t;
     d.body.appendChild(e);
 };
